@@ -12,8 +12,8 @@ from email.header import Header
 
 if __name__ == '__main__':
     #这里改成你的统一认证用户名和密码
-    user_name = '2018301177'
-    pwd = 'syj18761782628'
+    user_name = '########'
+    pwd = '#########'
 
     # 加上这两句话不打开浏览器
     option = webdriver.ChromeOptions()
@@ -91,12 +91,12 @@ if __name__ == '__main__':
     now_time1 = datetime.datetime.now().strftime('%Y-%m-%d')
     now_time2 = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
     # 发信方的信息：发信邮箱，QQ 邮箱授权码
-    from_addr = '1559650057@qq.com'
+    from_addr = '##########@qq.com'
     # 进入qq邮箱->设置->账户->找到stmp服务，点击开启。验证后会给你一个授权码，直接复制，填入下方即可
-    password = 'udyekijuibaahgdg'
+    password = '#########'
 
     # 收信方邮箱
-    to_addr = 'syj20000910@gmail.com'
+    to_addr = '###########'
 
     # 发信服务器
     smtp_server = 'smtp.qq.com'
